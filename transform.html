@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>belajar transform</title>
+        <style>
+            p {
+                font-size: 20px;
+                text-align: center;
+            }
+            .kotak {
+                width: 200px;
+                height: 200px;
+                background-color: lightblue;
+                margin: 50px auto 0;
+                transition: 3  s;
+            }
+            .kotak:hover {
+                /*scale(angka), scaleX(angka), scaleY(angka)
+                rotate(deg), rotateX(deg), rotateY(deg)
+                skew(deg), skewX(deg), skewY(deg), 
+                translate(px), tranlateX(px), translateY(px)*/
+                transform: rotate(-45deg) skewX(180deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="kotak"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nostrum eius provident maiores! Omnis, animi at illum commodi sapiente veritatis suscipit quis placeat impedit deleniti dolor dolorem, dolore voluptatum officiis!</p>
+    </body>
+
+</html>

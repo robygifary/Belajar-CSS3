@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Animation</title>
+        <head>
+            <style>
+                .kotak {
+                    width: 200px;
+                    height: 200px;
+                    margin: 10px auto;
+                    background-color: sandybrown;
+                    /*
+                    [name] [duration] [timing-function] [delay] [iteration] [direction] [fill-mode] [play-state]
+                    */
+                    animation: animasiKotak 2s ease 3 alternate forwards;
+                }
+                @keyframes animasiKotak {
+                    0% {
+                        width: 200px;
+                    }
+                    50% {
+                        width: 500px;
+                        height: 200px;
+                    }
+                    100% {
+                       width: 500px;
+                       height: 500px;
+                    }
+                }
+            </style>
+        </head>
+    </head>
+    <body>
+            <div class="kotak"></div>
+    </body>
+
+</html>
